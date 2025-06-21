@@ -1,24 +1,39 @@
-# 📈 Stock Analysis & Technical Indicator Visualization
+# 📈 Major Stock Analysis & Technical Indicator Visualization
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-An interactive Jupyter Notebook project that enables stock market analysis using historical data, technical indicators, and price chart visualizations. Ideal for retail traders, quants, finance students, and anyone exploring the fundamentals of algorithmic market analysis.
+This project is a comprehensive stock data analysis tool built using Python and Jupyter Notebook. It enables you to fetch historical market data, compute key technical indicators, and visualize trends, aiding in better trading or investment decisions.
 
 ---
 
-## 🌟 Demo Preview
+## 📁 Project Structure
 
-> 📊 Visual output includes:
-- OHLC price charts with overlaid indicators  
-- Momentum oscillators like RSI and MACD  
-- Signal-based Buy/Sell visual zones  
-- Clean and intuitive plots using Matplotlib & Seaborn
+- **Stock_Analysis.ipynb** – Main notebook for data loading, visualization, and technical indicator computation.
+- **data/** – *(Optional)* Folder to store any downloaded CSV files or backups.
+- **charts/** – *(Optional)* Output directory for saved plots.
 
-![Sample Chart](https://user-images.githubusercontent.com/placeholder/stock_chart_example.png) <!-- Replace with real image URL -->
+## 📌 Features
 
----
+- 🗓️ Fetch stock data using Yahoo Finance (`yfinance`)
+- 📊 Compute technical indicators like:
+  - Simple Moving Average (SMA)
+  - Exponential Moving Average (EMA)
+  - Relative Strength Index (RSI)
+  - Moving Average Convergence Divergence (MACD)
+- 🖼️ Plot price charts with indicators and signals
+- 🧠 Perform trend and momentum analysis
+- 🧾 Simple signal generation (Buy/Sell zones)
+
+## 🚀 How to Run
+
+1. **Install Dependencies**
+
+   Run the following command to install all required Python packages:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn yfinance ta
 
 ## 📌 Features
 
@@ -51,11 +66,3 @@ An interactive Jupyter Notebook project that enables stock market analysis using
 | `jupyter`     | Notebook for interactive workflows  |
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/stock-analysis.git
-cd stock-analysis
